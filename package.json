@@ -1,0 +1,35 @@
+{
+  "name": "styled-utils",
+  "version": "0.0.0",
+  "main": "index.js",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build:ts": "yarn workspaces run build:ts",
+    "build:tsx": "yarn workspaces run build:tsx"
+  },
+  "prettier": {
+    "semi": true,
+    "trailingComma": "all",
+    "singleQuote": true,
+    "printWidth": 120,
+    "tabWidth": 2
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.8.3",
+    "@babel/core": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "@babel/preset-typescript": "^7.8.3",
+    "@babel/runtime": "^7.8.3",
+    "@types/node": "^13.1.8",
+    "@types/styled-components": "^4.4.2",
+    "cross-env": "^6.0.3",
+    "npm-run-all": "^4.1.5",
+    "rimraf": "^3.0.0",
+    "typescript": "^3.7.5"
+  }
+}

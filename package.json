@@ -8,8 +8,7 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build:ts": "yarn workspaces run build:ts",
-    "build:tsx": "yarn workspaces run build:tsx"
+    "build:ts": "yarn workspaces run build:ts"
   },
   "prettier": {
     "semi": true,

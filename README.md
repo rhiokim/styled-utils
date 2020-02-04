@@ -1,6 +1,6 @@
 # styled-utils
 
-💅🏿+ 🛠
+Useful functions to generate style for styled-components. 💅🏿+ 𝒇
 
 ## How to develop
 
